@@ -15,7 +15,7 @@ struct Logger {
 				let date = "\(Date.time()) -> "
 				let dash = String(repeating: "-", count: string.count + date.count)
 				let lowerSpace = String(repeating: "\n", count: spaceBelow!)
-				print ("""
+				NSLog ("""
 			       \(dash)
 			       \(date)\(string)
 			       \(dash)\(lowerSpace)
